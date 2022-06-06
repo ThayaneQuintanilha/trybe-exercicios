@@ -1,4 +1,11 @@
-Sobre esse repositório:
+![trybepreto](https://user-images.githubusercontent.com/78765220/171918576-b9bf505b-88a2-4286-a38b-fd6164e8c85d.png)
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/78765220/171918576-b9bf505b-88a2-4286-a38b-fd6164e8c85d.png" width="0px" />
+</div>
+
+<h1>Sobre esse repositório:</h1>
+
 Esse repositório serve para armazenar códigos desenvolvidos ao longo do curso referentes a práticas presentes no conteúdo, aulas ao vivo e exercícios de cada dia de conteúdo do respectivo bloco.
 
 A formação em desenvolvimento Web na Trybe é dividida em quatro módulos: Fundamentos do Desenvolvimento Web, Desenvolvimento Front-end, Desenvolvimento Back-end e Ciência da Computação.
@@ -13,17 +20,21 @@ Logo abaixo possui um sumário do módulo já concluído por mim de Fundamentos 
 
 OBS: blocos que não estejam listados tratam-se de blocos exclusivamente direcionados para projetos em grupo, por consequência não houve exercício e material para ser subido aqui. Há também alguns blocos que não possuem arquivos de algum dia ou não possuem arquivo algum, isso se dá por o conteúdo do bloco ser de um aspecto mais teórico ou pelas atividades terem sido realizadas em outras plataformas.
 
-Sumário
-Fundamentos do Desenvolvimento Web
-Desenvolvimento Front-end
-Desenvolvimento Back-end
-Fundamentos do Desenvolvimento Web
-Bloco 1: Unix, Bash e ShellScript
+<hr>
+<h3> Sumário </h3>
+
+* Fundamentos do Desenvolvimento Web
+* Desenvolvimento Front-end
+* Desenvolvimento Back-end
+* Ciencia da Computação
+
+<hr>
+<h4>Bloco 1</h4>Unix, Bash e ShellScript
 Primeiro bloco de conteúdo, onde fomos nos familiarizando com algumas ferramentas importantes para o ambiente de desenvolvimento. Tendo contado com o terminal, aprendendo a navegar pelas pastas, alterar arquivos, adicionar linhas.
 
 Também aprendemos a automatizar alguns processo através do uso de ShellScript.
-
-Bloco 2: Git, GitHub e Internet
+<hr>
+<h4>Bloco 2</h4>Git, GitHub e Internet
 Aqui aprendemos versionamento de código, o que é Git, como usar ele a nosso favor para garantir uma maior segurança no desenvolvimento de projetos, como funciona o fluxo dele em trabalhos de equipe.
 
 Aprendemos a salvar nossos projetos no GitHub e como ele também possui várias features que ajudam na manutenção dos diversos aspectos que envolvem o desenvolvimento de projetos em equipe.
