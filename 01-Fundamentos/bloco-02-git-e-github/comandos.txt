@@ -1,0 +1,14 @@
+git config
+git init
+git clone
+git add
+git commit
+git branch
+git checkout
+git remote
+git push
+git fetch
+git pull
+git rm
+git merge
+git help
