@@ -71,20 +71,48 @@
 
 // 6- Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let results = 0;
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let results = 0;
+// 
+// for (index = 0; index < numbers.length; index += 1) {
+  // if (numbers[index] %2 !== 0) {
+    // 
+    // results++
+  // } 
+// }
+// if (results !== 0){
+  // console.log (results)
+// }
+// else {
+  // console.log ("nenhum valor ímpar encontrado")
+// }
 
-for (index = 0; index < numbers.length; index += 1) {
-  if (numbers[index] %2 !== 0) {
-    
-    results++
-  } 
-}
-if (results !== 0){
-  console.log (results)
-}
-else {
-  console.log ("nenhum valor ímpar encontrado")
-}
 
-// console.log (results)
+// 7- Utilizando for, descubra qual o menor valor contido no array e imprima-o;
+
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// count = numbers[0];
+
+// for (i = 0; i < numbers.length; i += 1) {
+//   if (numbers[i] < count) {
+//     count = numbers[i]
+//   }
+// }
+// console.log (count)
+
+// 8- Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+
+// for (index = 0; index < numbers.length; index += 1) {
+//   console.log (numbers[index])
+// }
+
+// 9- Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2.
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+// // let div = numbers[0]
+
+// for (index = 0; index < numbers.length; index += 1) {
+//   console.log (numbers[index] / 2)
+// }
