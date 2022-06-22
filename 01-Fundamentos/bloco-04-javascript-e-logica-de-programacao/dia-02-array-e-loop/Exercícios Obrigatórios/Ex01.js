@@ -30,7 +30,7 @@
 
 // for (let index = 0; index < numbers.length; index += 1) {
 //   soma += numbers[index];
-//   div = soma / index
+//   div = soma / numbers.length
 // }
 // console.log (div)
 
@@ -45,7 +45,7 @@
 
 // for (let index = 0; index < numbers.length; index += 1) {
 //   soma += numbers[index];
-//   div = soma / index
+//   div = soma / numbers.length
 // }
 
 // if (div > 20) {
@@ -56,24 +56,3 @@
 
 // console.log (div)
 
-
-// 5- 🚀 Utilizando for, descubra qual o maior valor contido no array e imprima-o;
-
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-
-let soma = 0;
-let div = 0;
-
-
-for (let index = 0; index < numbers.length; index += 1) {
-  soma += numbers[index];
-  div = soma / index
-}
-
-if (div > 20) {
-  console.log ("valor maior que 20")
-} else {
-  console.log ("valor menor ou igual a 20")
-}
-
-console.log (div)
