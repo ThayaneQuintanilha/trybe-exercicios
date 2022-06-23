@@ -52,16 +52,16 @@
 //Crie um algoritmo que simula o jogo "pedra, papel e tesoura" levando em consideração que são apenas duas pessoas jogando e imprima o resultado no formato:
 // "Player 1 won" ou "A Ties" ou "Player 2 won". 
 
-let array = ["pedra, papel, tesoura"];
-let player1;
-let player2;
+// let array = ["pedra, papel, tesoura"];
+// let player1;
+// let player2;
 
-player1 = array[Math.random * 2]
-player2 = array[Math.random * 2]
+// player1 = array[Math.random * 2]
+// player2 = array[Math.random * 2]
 
-for (let index = 0; index < array.length; index += 1) {
-  for (let index2 = 0; index2 < array.length; index2 += 1){
-    if (array[index] === array[index2[1]]) {
-    } 
-    }
-  }
+// for (let index = 0; index < array.length; index += 1) {
+//   for (let index2 = 0; index2 < array.length; index2 += 1){
+//     if (array[index] === array[index2[1]]) {
+//     } 
+//     }
+//   }
