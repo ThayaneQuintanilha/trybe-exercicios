@@ -17,3 +17,6 @@ let car = {
 for (let key in car) {
   console.log(key, car[key]);
 }
+
+// FOR IN PERCORRE AS POSIÇÕES
+// FOR OF PERCORRE OS VALORES
