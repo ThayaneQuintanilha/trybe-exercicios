@@ -18,4 +18,6 @@ for (let uppercase = 0; uppercase < tagP.length; uppercase += 1) {
 
 // - 6
 let printP = document.getElementsByTagName('p');
-console.log(printP);
+for (let index = 0; index < printP.length; index++) {
+  console.log(printP[index].innerText);
+}
