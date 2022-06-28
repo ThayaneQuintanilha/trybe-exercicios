@@ -6,3 +6,16 @@ document.getElementsByClassName('main-content')[0].style = 'background-color: gr
 
 // - 3
 document.getElementsByClassName('center-content')[0].style = 'background-color: white'
+
+// - 4
+document.getElementsByTagName('h1')[0].innerText = 'Manipulação de Elementos'
+
+// - 5
+let tagP = document.getElementsByTagName('p');
+for (let uppercase = 0; uppercase < tagP.length; uppercase += 1) {
+  tagP[uppercase].style = 'text-transform: uppercase;'
+}
+
+// - 6
+let printP = document.getElementsByTagName('p');
+console.log(printP);
