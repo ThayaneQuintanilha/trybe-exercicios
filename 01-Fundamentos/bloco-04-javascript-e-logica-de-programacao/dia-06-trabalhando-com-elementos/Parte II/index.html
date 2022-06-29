@@ -112,7 +112,29 @@
         imgTag.src = ('https://picsum.photos/200');
         sectionLeft.appendChild(imgTag);
 
-        
+        // - 8
+
+        let ulList = document.createElement('ul');
+        sectionRigth.appendChild(ulList);
+
+        let arrayLi = [
+          'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'
+        ];
+
+        for (let index = 0; index < arrayLi.length; index++) {
+          let createLi = document.createElement('li');
+          createLi.innerText = arrayLi[index]
+          ulList.appendChild(createLi)
+        }
+
+        // - 9
+
+
+        for (let index = 0; index <= 2; index++) {
+          let createTagH3 = document.createElement('h3');
+          createTagH3.innerText = ('sla')
+          tagMain.appendChild(createTagH3);
+        }
 
       </script>
     </body>
