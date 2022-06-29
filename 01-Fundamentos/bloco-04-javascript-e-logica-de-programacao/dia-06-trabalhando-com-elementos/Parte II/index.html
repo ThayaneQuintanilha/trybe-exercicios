@@ -23,6 +23,7 @@
   
         .title {
           text-align: center;
+          color: pink;
         }
   
         .main-content {
@@ -102,7 +103,7 @@
         // - 6
         
         let sectionRigth = document.createElement('section');
-        sectionRigth.className = ('rigth-content');
+        sectionRigth.className = ('right-content');
         tagMain.appendChild(sectionRigth);
 
         // - 7
@@ -135,6 +136,39 @@
           createTagH3.innerText = ('sla')
           tagMain.appendChild(createTagH3);
         }
+
+        // PARTE 2 // - 1
+
+        let titleH1 = document.querySelector('h1')
+        titleH1.className = ('title')
+
+        // - 2
+
+        let takeTagh3 = document.getElementsByTagName('h3');
+        for (let index = 0; index <= 2; index++) {
+          takeTagh3[index].className = ('description') 
+        }
+
+        // - 3
+
+        let removeLeft = document.getElementsByClassName('left-content')[0]
+        tagMain.removeChild(removeLeft);
+
+        // - 4
+        
+        let styleSectionRight = document.getElementsByClassName('right-content')[0];
+        styleSectionRight.style.marginRight = 'auto';
+
+        // - 5
+
+        let sectionStyle = document.getElementsByClassName('center-content')[0];
+        sectionStyle.parentNode.style.backgroundColor = 'green'
+
+        // - 6
+
+        let acessArray = document.getElementsByTagName('ul')[0];
+        acessArray.lastChild.remove()
+        acessArray.lastChild.remove()
 
       </script>
     </body>
