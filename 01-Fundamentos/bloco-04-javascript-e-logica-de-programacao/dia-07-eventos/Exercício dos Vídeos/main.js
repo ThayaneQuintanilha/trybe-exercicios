@@ -14,16 +14,34 @@ const myWebpage = document.getElementById('my-spotrybefy');
 
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
+input.addEventListener("input", inputText)
+function inputText () {
+  let classTech = document.querySelector('.tech');
+  let value = input.value;
+  classTech.innerText = value;
+}
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 // 4.1. Que tal redirecionar para seu portfólio?
 
+myWebpage.addEventListener("dblclick", function() {
+  window.location.replace('https://playvalorant.com/pt-br/?gclid=CjwKCAjwk_WVBhBZEiwAUHQCmTJDHqgG4bZaJ0FJR7iL6UrRgVSFGd9dCy5G-rNrmYRrtajNX-WkxhoCig4QAvD_BwE&gclsrc=aw.ds')
+})
+
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
 
-// Segue abaixo um exemplo do uso de event.target:
-
+myWebpage.addEventListener("mouseover", mouseOver);
+myWebpage.addEventListener("mouseleave", mouseLeave);
+function mouseOver () {
+  let id = document.querySelector('#my-spotrybefy');
+  id.style.color = 'green'
+}
+function mouseLeave () {
+  let id = document.querySelector('#my-spotrybefy');
+  id.removeAttribute("style")
+}
 
 function resetText(event) {
   // O Event é passado como um parâmetro para a função.
