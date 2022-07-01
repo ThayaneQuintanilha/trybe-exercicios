@@ -54,3 +54,22 @@ dayOfTheMonth()
 
 // - 2
 
+function createHolidayButton (buttonName) {
+  let createButton = document.createElement('button');
+  let divConteiner = document.querySelector('.buttons-container')
+  createButton.innerText = buttonName;
+  createButton.id = 'btn-holiday';
+  divConteiner.appendChild(createButton);
+}
+createHolidayButton('feriados')
+
+// - 3
+
+let classHoliday = document.querySelectorAll('.holiday');
+
+let btnHoliday = document.getElementById('btn-holiday')
+btnHoliday.addEventListener("click", function(){
+  for (let day of classHoliday) {
+    day.style.color = 'green'
+  }
+});
