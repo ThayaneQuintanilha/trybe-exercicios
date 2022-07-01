@@ -14,7 +14,8 @@ const myWebpage = document.getElementById('my-spotrybefy');
 
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
-input.addEventListener("input", inputText)
+input.addEventListener("input", inputText);
+
 function inputText () {
   let classTech = document.querySelector('.tech');
   let value = input.value;
