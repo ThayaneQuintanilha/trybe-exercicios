@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#section-input input{
+  text-align: start;
+  padding: 50px;
+}
