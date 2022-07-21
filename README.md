@@ -45,3 +45,11 @@ Sobre a internet entendemos o seu fluxo de funcionamento, seus protocolos, requi
 Demos nossos primeiros passos com HTML e CSS, primeiro entendendo a estrutura do HTML, suas principais tags e questões de semântica.
 
 No CSS aprendemos os primeiros passos, entendendo quais são os seletores que utilizamos para acessar os elementos no HTML,.como trabalhar questão de posicionamento e principais propriedades utilizadas.
+<hr>
+<h4>Bloco 4</h4>Introdução à JavaScript e Lógica de Programação
+Nosso primeiro contato com JavaScript, entendendo o básico dos conceitos fundamentais desde variáveis, passando por Arrays, objetos, loops e funções.
+<hr>
+<h4>Bloco 5</h4>JavaScript: DOM, Eventos e WebStorage
+Começamos a integrar nossos aprendizados em desenvolvimento web integrando HTML, CSS e JavaScript. Entendendo como utilizar o JavaScript para capturar elementos do HTML, manipulá-los e adicionar ou remover estilos e classes CSS.
+
+Também aprendemos a utilizar o LocalStorage como forma de ter um espaço no navegador da pessoa usuária para armazenar informações que possam ser aproveitadas mesmo que a página seja atualizada.
