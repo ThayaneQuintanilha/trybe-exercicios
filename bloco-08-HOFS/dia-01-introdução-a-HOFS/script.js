@@ -64,4 +64,6 @@ const sleep = () => 'Partiu dormir!!';
 
 const doingThings = (result) => result();
 
-console.log(doingThings(coffee));
+// doingThings é uma HOF, wake/coffee/sleep são callbacks.
+// A HOF recebe a função callback como parâmetro.
+console.log(doingThings(wake)); 
