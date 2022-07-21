@@ -3,7 +3,13 @@ function sum(a, b) {
     throw new Error('parameters must be numbers');
   }
 
-  return a + b;
+  try {
+    sum (a, b);
+    return a + b;
+  } catch (error){
+    return error.message
+  }
+  // return sum;
 }
 
 module.exports = sum;

@@ -40,3 +40,8 @@ Aqui aprendemos versionamento de código, o que é Git, como usar ele a nosso fa
 Aprendemos a salvar nossos projetos no GitHub e como ele também possui várias features que ajudam na manutenção dos diversos aspectos que envolvem o desenvolvimento de projetos em equipe.
 
 Sobre a internet entendemos o seu fluxo de funcionamento, seus protocolos, requisições, respostas, estrutura, evolução.
+<hr>
+<h4>Bloco 3</h4>Introdução à HTML e CSS
+Demos nossos primeiros passos com HTML e CSS, primeiro entendendo a estrutura do HTML, suas principais tags e questões de semântica.
+
+No CSS aprendemos os primeiros passos, entendendo quais são os seletores que utilizamos para acessar os elementos no HTML,.como trabalhar questão de posicionamento e principais propriedades utilizadas.
