@@ -53,3 +53,15 @@ Nosso primeiro contato com JavaScript, entendendo o básico dos conceitos fundam
 Começamos a integrar nossos aprendizados em desenvolvimento web integrando HTML, CSS e JavaScript. Entendendo como utilizar o JavaScript para capturar elementos do HTML, manipulá-los e adicionar ou remover estilos e classes CSS.
 
 Também aprendemos a utilizar o LocalStorage como forma de ter um espaço no navegador da pessoa usuária para armazenar informações que possam ser aproveitadas mesmo que a página seja atualizada.
+<hr>
+<h4>Bloco 6</h4>HTML e CSS: Forms, FlexBox e Responsivo
+Aprofundando os conhecimentos em HTML e CSS, aprendemos a desenvolver aquilo que todo site vai ter ao menos um: o famoso formulário. Com isso, aprendemos também a posicionar com mais facilidade os elementos em tela utilizando CSS FlexBox.
+
+Responsividade é um tema muito relevante e não poderia ficar de fora, afinal o uso de smartphones cresce rapidamente e o mercado digital precisa se adaptar a necessidade da pessoa usuária de ter o site acessível a telas pequenas.
+<hr>
+<h4>Bloco 7</h4>Introdução à JavaScript ES6 e Teste Unitários
+ES6 é a sigla de EcmaScript6, que refere-se a uma nova versão do JavaScript, desenvolvida com objetivo de padronizar e melhorar algumas aspectos do desenvolvimento com JavaScript.
+
+Testes são etapas muito importantes do processo de desenvolvimento de uma aplicação. Garantir que as funcionalidades estão funcionando de acordo com o esperado é essencial antes de colocar a aplicação em produção.
+
+Aprendemos então a desenvolver testes unitários para garantir que nossas funções ocorrem no fluxo esperado, garantindo melhor desempenho de nossas aplicações e segurança de nosso código.
