@@ -58,12 +58,12 @@
 // const calcule = (result) => result(5,9)
 // console.log(calcule(sum));
 
-const wake = () => 'Acordando!!';
-const coffee = () => 'Bora tomar café!!';
-const sleep = () => 'Partiu dormir!!';
+// const wake = () => 'Acordando!!';
+// const coffee = () => 'Bora tomar café!!';
+// const sleep = () => 'Partiu dormir!!';
 
-const doingThings = (result) => result();
+// const doingThings = (result) => result();
 
-// doingThings é uma HOF, wake/coffee/sleep são callbacks.
-// A HOF recebe a função callback como parâmetro.
-console.log(doingThings(wake)); 
+// // doingThings é uma HOF, wake/coffee/sleep são callbacks.
+// // A HOF recebe a função callback como parâmetro.
+// console.log(doingThings(wake)); 
