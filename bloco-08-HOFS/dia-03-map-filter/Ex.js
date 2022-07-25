@@ -61,10 +61,22 @@ const books = [
   },
 ];
 
-// 🚀 1 - Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
-// Dica: Use a função map
+// // 🚀 1 - Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
+// // Dica: Use a função map
 
-const formatedBookNames = (book) => book.map((info) => `${info.name}, ${info.genre}, ${info.author.name}`
-)
+// const formatedBookNames = (book) => book.map((info) => `${info.name}, ${info.genre}, ${info.author.name}`
+// )
 
-console.log(formatedBookNames(books));
+// console.log(formatedBookNames(books));
+
+// 2 --------
+
+function nameAndAge(booksInfo) {
+  const test = booksInfo.map((infos) => ({
+    author: infos.author.name,
+    age: infos.releaseYear - infos.author.birthYear
+  })).sort((a, b) => a.age - b.age)
+  return test
+}
+
+console.log(nameAndAge(books));
