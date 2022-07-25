@@ -108,9 +108,21 @@ const books = [
 
 // 🚀 5 - Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
 
-function fantasyOrScienceFictionAuthors(booksAuthors) {
-  const verifyBooks = ['Ficção Científica', 'Fantasia']
-  return booksAuthors.filter((nameAuthors) => verifyBooks.includes(nameAuthors.genre)).map((nameAuthors) => nameAuthors.author.name).sort((a, b))
+// function fantasyOrScienceFictionAuthors(booksAuthors) {
+//   const verifyBooks = ['Ficção Científica', 'Fantasia']
+//   return booksAuthors.filter((nameAuthors) => verifyBooks.includes(nameAuthors.genre)).map((nameAuthors) => nameAuthors.author.name).sort((a, b))
+// }
+
+// console.log(fantasyOrScienceFictionAuthors(books));
+
+// 🚀 6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
+
+function authorWith3DotsOnName(allBooks) {
+  return allBooks.map((books) => {
+    if (books.releaseYear > 60) {
+      return books.name
+    }
+  })
 }
 
-console.log(fantasyOrScienceFictionAuthors(books));
+console.log(authorWith3DotsOnName(books));
