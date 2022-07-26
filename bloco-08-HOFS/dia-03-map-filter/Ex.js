@@ -117,12 +117,20 @@ const books = [
 
 // 🚀 6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
 
-function authorWith3DotsOnName(allBooks) {
-  return allBooks.map((books) => {
-    if (books.releaseYear > 60) {
-      return books.name
-    }
-  })
+// function authorWith3DotsOnName(allBooks) {
+//   return allBooks.map((books) => {
+//     if (books.releaseYear > 60) {
+//       return books.name
+//     }
+//   })
+// }
+
+// console.log(authorWith3DotsOnName(books));
+
+// 7 - Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais (terminam com um ponto).
+
+function authorWith3DotsOnName(booksEndsWithPoint) {
+  return booksEndsWithPoint.filter((books) => books.author.name.includes('.')).map((books) => books.name);
 }
 
 console.log(authorWith3DotsOnName(books));
