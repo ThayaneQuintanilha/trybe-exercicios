@@ -47,36 +47,45 @@
 // 🚀 4 - Escreva uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20:
 // Dica: use object destructuring.
 
-const people = [
-  {
-    name: 'Nicole',
-    bornIn: 1992,
-    nationality: 'Australian',
-  },
-  {
-    name: 'Harry',
-    bornIn: 2008,
-    nationality: 'Australian',
-  },
-  {
-    name: 'Toby',
-    bornIn: 1901,
-    nationality: 'Australian',
-  },
-  {
-    name: 'Frida',
-    bornIn: 1960,
-    nationality: 'Dannish',
-  },
-  {
-    name: 'Fernando',
-    bornIn: 2001,
-    nationality: 'Brazilian',
-  },
-];
+// const people = [
+//   {
+//     name: 'Nicole',
+//     bornIn: 1992,
+//     nationality: 'Australian',
+//   },
+//   {
+//     name: 'Harry',
+//     bornIn: 2008,
+//     nationality: 'Australian',
+//   },
+//   {
+//     name: 'Toby',
+//     bornIn: 1901,
+//     nationality: 'Australian',
+//   },
+//   {
+//     name: 'Frida',
+//     bornIn: 1960,
+//     nationality: 'Dannish',
+//   },
+//   {
+//     name: 'Fernando',
+//     bornIn: 2001,
+//     nationality: 'Brazilian',
+//   },
+// ];
 
-// escreva filterPeople abaixo
-const filterPeople = (obj) => obj
-.filter(({ bornIn, nationality }) => nationality === 'Australian' && bornIn >= 1901 && bornIn <= 2000);
+// // escreva filterPeople abaixo
+// const filterPeople = (obj) => obj
+// .filter(({ bornIn, nationality }) => nationality === 'Australian' && bornIn >= 1901 && bornIn <= 2000);
 
-console.log(filterPeople(people));
+// console.log(filterPeople(people));
+
+// 5 - Escreva a função swap, que dado um array de 3 elementos, retorna um novo array com o primeiro e terceiro elementos trocados. Detalhe: você precisa fazer essa função gastando 1 linha só:
+
+const myList = [1, 2, 3];
+
+// escreva swap abaixo
+const swap = ([elemento1, elemento2, elemento3]) => [elemento3, elemento2, elemento1]
+
+console.log(swap(myList));
