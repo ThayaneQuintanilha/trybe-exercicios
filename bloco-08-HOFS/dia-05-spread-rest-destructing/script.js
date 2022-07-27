@@ -50,20 +50,63 @@
 // console.log(nome, turma, materia);
 
 
-const user = {
-  name: 'Maria',
-  age: 21,
-  nationality: 'Brazilian',
-};
+// const user = {
+//   name: 'Maria',
+//   age: 21,
+//   nationality: 'Brazilian',
+// };
 
-const jobInfos = {
-  profession: 'Software engineer',
-  squad: 'Rocket Landing Logic',
-  squadInitials: 'RLL',
-};
+// const jobInfos = {
+//   profession: 'Software engineer',
+//   squad: 'Rocket Landing Logic',
+//   squadInitials: 'RLL',
+// };
 
-const { name, age, nationality } = user;
-const { profession, squad, squadInitials } = jobInfos
+// const { name, age, nationality } = user;
+// const { profession, squad, squadInitials } = jobInfos
 
-const result = `"Hi, my name is ${name}, I'm ${age} years old and I'm ${nationality}. I work as a ${profession} and my squad is ${squadInitials}-${squad}`
-console.log(result);
+// const result = `"Hi, my name is ${name}, I'm ${age} years old and I'm ${nationality}. I work as a ${profession} and my squad is ${squadInitials}-${squad}`
+// console.log(result);
+
+// const person = {
+//   name: 'João',
+//   lastName: 'Jr',
+//   age: 34,
+// };
+
+// const { nationality = 'Brazilian' } = person
+// console.log(nationality); // Brazilian
+
+// const getNationality = ({ firstName , nationality = 'Brazilian' }) => `${firstName} is ${nationality}`;
+
+// const person = {
+//   firstName: 'João',
+//   lastName: 'Jr II',
+// };
+
+// const otherPerson = {
+//   firstName: 'Ivan',
+//   lastName: 'Ivanovich',
+//   nationality: 'Russian',
+// };
+
+// console.log(getNationality(otherPerson)); // Ivan is Russian
+// console.log(getNationality(person)); // João is undefined
+
+// const getPosition = (latitude, longitude) => {
+//   return {
+//     latitude,
+//     longitude
+//   }
+// }
+// console.log(getPosition(-19.8157, -43.9542));
+
+// const greeting = (user) => {
+//   const getUser = typeof user === 'undefined' ? 'Usuário' : user
+//   return `Bem-Vindo ${getUser}`
+// }
+
+// console.log(greeting());
+
+// const greeting2 = (user = 'Usuário') => console.log(`Bem-Vindo ${user}`);
+// greeting2()
