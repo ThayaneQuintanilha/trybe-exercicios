@@ -2,4 +2,12 @@ function calculaImc(weight, height) {
   return weight / (height*height);
 };
 
-console.log(calculaImc(100, 1.78));
+// function questionImc() {
+//   const weight = readlineSync.questionInt("What's your weight?")
+//   const height = readlineSync.questionInt("What's your height?")
+
+//   const result = calculaImc(weight, height);
+//   return result;
+// }
+
+module.exports = { calculaImc };

@@ -5,7 +5,7 @@
   "main": "bmi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bmi": "node bmi.js"
+    "start": "node index"
   },
   "keywords": [],
   "author": "",
