@@ -4,7 +4,9 @@
   "description": "![trybepreto](https://user-images.githubusercontent.com/78765220/171918576-b9bf505b-88a2-4286-a38b-fd6164e8c85d.png)",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node dia-04-middlewares/server.js",
+    "dev": "nodemon 03-Back-End/secao4/dia-04-middlewares/server.js"
   },
   "keywords": [],
   "author": "",
